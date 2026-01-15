@@ -180,7 +180,7 @@ const WeddingMitraWebsite = () => {
       title: "Artistic Excellence in Wedding Photography",
       subtitle: "Professional Team Capturing Your Most Precious Moments",
       gradient: "linear-gradient(135deg, rgba(168, 85, 247, 0.9) 0%, rgba(139, 92, 246, 0.9) 100%)",
-      image: "https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?auto=format&fit=crop&w=1920"
+      image: "https://f5blog.co.uk/wp-content/uploads/2022/01/0021-indian-wedding-hampton-court-palace-photography.jpg"
     },
     {
       title: "Crafting Timeless Wedding Memories",
@@ -513,7 +513,7 @@ const WeddingMitraWebsite = () => {
                   href={`#${item.toLowerCase()}`}
                   className="relative font-medium transition-all duration-300"
                 >
-                  <span className={`inline-block px-3 py-1 rounded-full transition-all text-sm leading-none bg-gradient-to-r from-red-600 to-pink-400 ${
+                  <span className={`inline-block px-3 py-2 rounded-full transition-all text-md leading-none bg-gradient-to-r from-purple-400 to-pink-600 ${
                     activeSection === item.toLowerCase()
                       ? 'bg-gradient-to-r from-red-600 to-green-400 shadow-lg text-white text-bold'
                       : (scrolled ? 'bg-white text-white hover:shadow-md hover:text-black' : 'bg-white/10 text-white hover:bg-white/20')
@@ -618,7 +618,7 @@ const WeddingMitraWebsite = () => {
               <span className="text-sm font-medium">Award Winning Photography Studio</span>
             </div> */}
 
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight">
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 mt-20 leading-tight">
               <span className="block bg-gradient-to-r from-white via-rose-100 to-pink-100 bg-clip-text text-transparent">
                 {heroSlides[currentSlide].title}
               </span>
@@ -724,7 +724,7 @@ const WeddingMitraWebsite = () => {
                 <div className="rounded-3xl overflow-hidden shadow-2xl">
                   <div className="aspect-[4/5] bg-gradient-to-br from-gray-100 to-gray-200">
                     <img
-                      src="public/rushi.jpg"
+                      src="https://i.pinimg.com/originals/89/25/88/89258871619917b1b035587e34519ec6.jpg"
                       alt="Pro Equipment"
                       className="w-full h-full object-cover"
                     />
